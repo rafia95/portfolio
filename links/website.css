@@ -1,0 +1,18 @@
+body{
+	background-color:#0d0d0d;
+	color:white;
+	font-size:18px;
+}
+#img1{
+	float:right;
+	width:40%;
+	height:100%;
+	border:5px solid #00cccc;
+
+}
+#img2{
+	float:left;
+	width:40%;
+	height:100%;
+	border:5px solid #00cccc;
+}

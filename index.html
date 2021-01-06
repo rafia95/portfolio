@@ -1,170 +1,157 @@
 <!DOCTYPE html>
 <html>
-	
+
 		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+			<link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+			<script>var ml = { timelines: {}};</script>
 				<link href="portfolio2.css" type="text/css" rel="stylesheet">
-				<script type="text/javascript" src="portfolio.js"></script>  
+				<script type="text/javascript" src="portfolio.js"></script>
 
 		</head>
 		<body>
-		<nav>
-		<a class="navbar" href="#div2">About me</a> | <a class="navbar" href="#div3">My Projects</a> | <a class="navbar" href="#div4">Chat Room</a> | <a class="navbar" href="#footer">Contact </a> &nbsp;
-		</nav>
+
+
+
+
+			<nav class="navbar navbar-expand">
+			<a class="navLinks" href="#div2">About me</a> | <a href="#div3">My Projects</a> | <a href="#div4">Chat Room</a> | <a href="#footer">Contact </a> |
+			<button type="button" class="btn btn-default btn-sm " id="bgColor" onclick="changeMode()">
+				<span class="glyphicon glyphicon-adjust"></span>
+			</button> &nbsp;
+			</nav>
+
+			<button onclick="changeMode()">Toggle dark mode</button>
+
 		<div id="div1">
-				<div id="textDestination">
+			<div id="textDestination">
 				</div>
-				<div id="mypic">
+			<!-- <div id="intro" class="container-fluid">
+			<h1 class="ml16" >Hi, I&#8217;m Rafia Anwar. <br/>A software developer, currently based in Canada.</h1>
+			</div>
+		<script>
+				var textWrapper = document.querySelector('.ml16');
+				textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+				ml.timelines["ml16"] = anime.timeline({loop: true}).add({
+							targets: '.ml16 .letter',
+							translateY: [-200,0],
+							easing: "easeOutExpo",
+							duration: 1400,
+							delay: (el, i) => 20 * i
+				}).add({
+						targets: '.ml16',
+						opacity: 0,
+						duration: 1000,
+						easing: "easeOutExpo",
+						delay: 1000000
+				});
+		</script> -->
+				<!-- <div id="mypic">
 					<img id="pic" src="images/pic2.jpg" >
-				</div>
-				
+				</div> -->
+
 		</div>
+
 				<div id="div2">
-				<p><br/>
-				<h1><u>About Me</u></h1>
+				<p><br/><br/><br/><br/>
+				<h2>About Me</h2>
 				<br/>
 				</p>
+				<section id="sec2">
+				<br/><br/>
+
+				<div id="mypic">
+					<img id="pic" src="./images/1.jpg" class="img-circle "alt="Rafia" >
+				</div>
+
+				</section>
 				<section id="sec1">
-				
+
 				<br/>
 				<p id="pText">
-			
+
 					<br/>
-					Hi. My name is Rafia Anwar and I am currently a Computer Science
-					student in Dawson College.I have worked on various projects using
-					advanced knowledge of Java and C#. I am always ready to learn new 
-					ways of developing my coding skills and applying them in my work. 
-					I believe that if you work hard enough at anything,
-					you can achieve the highest level of success.
+					Hellow! I am Rafia. <br/>
+					I am a student in <a href="https://uwaterloo.ca/future-students/programs/software-engineering"> Software Engineering </a> at the University of Waterloo.
+					 I have also completed a DEC in <a href="https://www.dawsoncollege.qc.ca/computer-science-technology/course-list/"> Computer Science </a> from Dawson College.
+					<br/> During my extensive education of Computer Science concepts, I have worked on various projects using
+					advanced knowledge of Java and Javascript. Below are a few of my technical skills sprinkled with colors!
+					<br/> Databases, algorithms and tea are few of my favorite things. &#9749;
+
 					<br/>
-					
+
 					<br/>
-					<h3>Technical Skills<h3>	
+					<h5>Technical Skills<h5>
 					<br/>
-				<p><svg width = "450px" height="280px">	
-						<circle id="c1 "cx="63" cy="63" r="59" stroke="#00cccc" stroke-width="6"></circle>
-						<text x="37" y="63" font-family="Courier New" font-size="19" fill="#00cccc" > Java </text>
-						
-						<circle id="c2" cx="215" cy="63" r="59" stroke="#00cccc" stroke-width="6"></circle>
-						<text x="200" y="63" font-family="Courier New" font-size="19" fill="#00cccc" > C# </text>	
-						
-						<circle id="c3" cx="370" cy="63" r="59" stroke="#00cccc" stroke-width="6"></circle>
+				<p><svg width = "450px" height="280px">
+						<circle id="c1 "cx="63" cy="63" r="49" stroke="#b14e62" stroke-width="5" fill="white"></circle>
+						<text x="37" y="63" font-family="Courier New" font-size="19" fill="#000000" > Java </text>
+
+						<circle id="c2" cx="215" cy="63" r="49" stroke="#b14e62" stroke-width="6" fill="white"></circle>
+						<text x="200" y="63" font-family="Courier New" font-size="19" fill="#00cccc" > C# </text>
+
+						<circle id="c3" cx="370" cy="63" r="49" stroke="#b14e62" stroke-width="6" fill="white"></circle>
 						<text x="350" y="63" font-family="Courier New" font-size="19" fill="#00cccc" > HTML </text>
 
-						<circle id="c4" cx="63" cy="200" r="59" stroke="#00cccc" stroke-width="6"></circle>
-						<text x="10" y="200" font-family="Courier New" font-size="18" fill="#00cccc" > Javascript </text>
-						<circle id="c5" cx="220" cy="200" r="59" stroke="#00cccc" stroke-width="6"></circle>
+						<circle id="c4" cx="63" cy="200" r="49" stroke="#b14e62" stroke-width="6" fill="white"></circle>
+						<text x="30" y="200" font-family="Courier New" font-size="19" fill="#00cccc" > JS </text>
+						<circle id="c5" cx="220" cy="200" r="49" stroke="#b14e62" stroke-width="6" fill="white"></circle>
 						<text x="200" y="200" font-family="Courier New" font-size="19" fill="#00cccc" > CSS </text>
-						<circle id="c6" cx="370" cy="200" r="59" stroke="#00cccc" stroke-width="6"></circle>
+						<circle id="c6" cx="370" cy="200" r="49" stroke="#b14e62" stroke-width="6" fill="white"></circle>
 						<text x="330" y="200" font-family="Courier New" font-size="19" fill="#00cccc" > MYSQL </text>
-					
+
 				</svg>
 				</p>
-					
-				</section>
-				<Section id="sec2">
-				<br/><br/>
-				<h3>Work Experience</h3>
-					<ul id="pText">
-					<br/>
-					<li>
-					CASHIER | MARCHE ADONIS | 2014-PRESENT
-					<br/> - Customer Service
-					<br/> - Reconcile the accounts
-					<br/>  - Handle 150+ customer interaction per shift
-					</li>
-					</ul>
-				</p>
-				<p id="pText">
-				<br/>
-				<h3>Educational Background</h3>
-				<br/>
-					<ul id="pText">
-						<li>COMPUTER SCIENCE TECHNOLOGY | 2014-PRESENT 
-						<br/>DAWSON COLLEGE
-						<br/>	Major: JAVA, C#, HTML, JavaScript, CSS</li>
-						<br/>
-						<li>HIGHER SECONDARY SCHOOL CERTIFICATE | 2007-2013 
-						<br/>ICG ISLAMABAD PAKISTAN
-						<br/>	Major: Mathematics, Chemistry, Physics, Biology 
-						<br/> Honours Student</li>
-					</ul>
-					
-					<br/>
-				<h3>Interests</h3>
-				<br/>
-				<ul id="pText">
-				<li>Reading</li>
-				<li>Running</li>
-				</ul>
-					</p>
-				</section>
-				</div> 
-				<div id="div3"><br/><p><h1><u>My Projects</u></h1></p>
-				
-				<table id="table1">
-					<tr>
-					<br/>
-						<td><h1 id="tdh1"><a href="#tdh">Tetris </a></h1><img src="images/tetris.png" alt="tetris"></td>
-						<td><h1 id="tdh2"><a href="#tdh">Memory Game</a></h1><img src="images/memgame.png" alt="memory game"></td>
-						<td><h1 id="tdh3"><a href="#tdh">Tic Tac Toe</a></h1><img src="images/tictactoe.png" alt="tic tac toe"></td>
-					
-					</tr>
-				
-					<tr>
-						<td><br/><h1 id="tdh4"><a href="#tdh">Body Mass Index App</a></h1><img src="images/bmii.png" alt="BMI"></td>
-						<td><h1 id="tdh5"><a href="#tdh">Website</a></h1><img src="images/website.png" alt="website"></td>
-						<td><h1 id="tdh6"><a href="#tdh">Battleship</a></h1><img src="images/bship.png" alt="battleship"></td>
-					</tr>
-				</table>
-				</div> 
-				<div id="div4"><p><br/><h1><u>Chat Room</u></h1><br/></p>
-				<form action="" method="post">
-				<table id="table2">
-				<br/>
-					<tr>
-					
-					<td class="msgTextArea">
-					<label for="username" id="lblUser"><h3>Enter Your Name:</h3> </label>
-					</td>
-					<td>
-					<input id="username" type="text" name="username"/>
-					<button   id="btnStart" type="button">Start!</button>
-					</td>
-					</tr>
-					
-					<tr>
-						<td class="msgTextArea" >
-						<label for="showMessages" id="lblChat"><h3>Chat:&nbsp;<h3></td>
-						<td><textarea readonly id="showMessages" rows="10" cols="80"></textarea></td>
-					</tr>
-					<tr>
-					<td><br/></td><td><br/></td>
-					</tr>
-					<tr>
-					<td class="msgTextArea">		
-					<label for="message" id="lblMsgBox"><h3>Type your message here:</h3></label><br/>
-					</td>
-					<td>
-					<textarea id="messageBox" rows="4" cols="80"></textarea>
-					</td>
-					</tr>
-					<tr>
-					<td><br/></td><td><br/></td>
-					</tr>
-					<tr>	
-					<td></td>
-					<td><button  id="btnSend" type="button"><h4>Send!</h4></button></td>
-					<td></td>
-					</tr>
 
-				</table>
-				</form>
+				</section>
+
 				</div>
-		
+				<div id="div3"><br/><p><h1><u>Work Experience</u></h1></p>
+					<section id="sec3">
+						<h3>Internships</h3>
+						<div >
+							<img id="calipic" src="./images/cali2.png" class="img-circle "alt="caligram" >
+						</div>
+						<p id="pText">
+						<br/>• Implemented UI features using JavaScript and redux to enhance target market communication
+						<br/>• Enhanced central information hub using PHP Laravel to streamline departmental operations
+						<br/>• Improved database functionality using PostGres by increasing capacity and improving navigation
+					</p>
+
+							<div >
+								<img id="calipic" src="./images/goowi.jpg" class="img-circle "alt="goowi" >
+							</div>
+							<p id="pText">
+							<br/>	• Developed a conversational algorithm to assist clients over Facebook Messenger
+							<br/>• Modified Shopify API to expand viewing and accessibility of the product line
+							<br/>• Presented the benefits of Google Optimizer to the CEO and senior developers to increase website traffic
+						</p>
+					</section>
+					<section id="sec4">
+						<h3> Projects
+					</h3>
+						<div id="extraProjects">
+							<div >
+								<img id="calipic" src="./images/tetris.png" class="img-circle" >
+							</div>
+							<div >
+								<img id="calipic" src="./images/bship.png" class="img-circle"  >
+							</div>
+						</div>
+
+					</section>
+				</div>
+				<div id="div4"><p><br/><br/><br/><h2>Get in touch!</h2><br/></p>
+					<p id="pText">
+						If you made it till here, I would love to connect with you. <a href="mailto: rafia.anwar95@gmail.com">Say Hi!</a>.
+
+					</p>
+				</div>
+
 		</body>
-		
-		<footer id="footer">
-	<p><br/><h2><u>Contact</u>  </h2>
-	<br/>&nbsp;&nbsp;&nbsp;&nbsp; Email : rafia.anwar95@gmail.com
-	</footer>
+
 </html>

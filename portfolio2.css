@@ -156,16 +156,15 @@ a{
 	clear:both;
 	border-top:1px solid #000000;
 	text-align:center;
-	height:650px;
+	height:550px;
 	background-color: #ffffff;
+
 }
 footer{
 	border-top:1px solid #000000;
 	position:relative;
-	top:70%;
-	height: 200px;
-	font-size:22px;
-	text-align:center;
+	background-color: #e6b3b3;
+	height:100px;
 }
 #pText{
 	margin-left:20px;

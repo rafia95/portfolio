@@ -154,13 +154,13 @@ a{
 
 #div4{
 	clear:both;
-	border-top:1px solid #00cccc;
+	border-top:1px solid #000000;
 	text-align:center;
 	height:650px;
 	background-color: #ffffff;
 }
 footer{
-	border-top:1px solid #00cccc;
+	border-top:1px solid #000000;
 	position:relative;
 	top:70%;
 	height: 200px;
@@ -176,4 +176,7 @@ footer{
 #bgColor{
 	background-color: #e6b3b3;
 	border:3px solid #e6b3b3;
+}
+#socials{
+	font-size: 40px;
 }

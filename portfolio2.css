@@ -12,22 +12,7 @@ body{
   background-color: black;
 	color: #ffffff;
 }
-.ml16 {
-  color: #402d2d;
-  padding: 40px 0;
-  font-weight: 800;
-  font-size: 3em;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  overflow: hidden;
-  text-align: center;
 
-}
-
-.ml16 .letter {
-  display: inline-block;
-  line-height: 0.5em;
-}
 #intro{
   width:82%;
   margin-left:9%;
@@ -99,23 +84,21 @@ img{
 }
 #sec3{
 	float:left;
-	height:570px;
 	width:500px;
 	margin-left:18%;
 }
 #sec4{
 	font-size:14px;
 	float:left;
-	height:570px;
 	width:500px;
-
+}
+#extraProjects{
+	clear:both;
 }
 #div3{
-	border-top:1px solid #000000;
 	clear:both;
 	width:100%;
 	text-align:center;
-	height:650px;
 }
 #table1{
 	width:100%;
@@ -156,15 +139,14 @@ a{
 	clear:both;
 	border-top:1px solid #000000;
 	text-align:center;
-	height:550px;
+	height:750px;
 	background-color: #ffffff;
 
 }
 footer{
-	border-top:1px solid #000000;
 	position:relative;
-	background-color: #e6b3b3;
-	height:100px;
+	background-color: #b14e62;
+	height:50px;
 }
 #pText{
 	margin-left:20px;
@@ -178,4 +160,12 @@ footer{
 }
 #socials{
 	font-size: 40px;
+}
+#margins{
+	margin-top: 12%;
+	margin-bottom: 15%;
+}
+#teamProjects{
+	text-align: center;
+
 }

@@ -85,12 +85,18 @@ img{
 #sec3{
 	float:left;
 	width:500px;
-	margin-left:18%;
+	margin-left:15%;
+	margin-top:3%;
+	text-align: left;
 }
 #sec4{
 	font-size:14px;
 	float:left;
 	width:500px;
+	margin-left:5%;
+	margin-top:3%;
+	text-align: left;
+
 }
 #extraProjects{
 	clear:both;
@@ -167,5 +173,11 @@ footer{
 }
 #teamProjects{
 	text-align: center;
+	clear: both;
+
+}
+#bulletPointMargin{
+	margin-left: 25%;
+	text-align:left;
 
 }

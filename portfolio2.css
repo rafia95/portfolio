@@ -7,6 +7,7 @@ body{
 	background-color:#eeeeee;
 	font-family:'B612', sans-serif;
 	color: #402d2d;
+
 }
 .dark-mode{
   background-color: black;
@@ -37,13 +38,13 @@ img{
 	width:230px;
 	height:230px;
 	padding:2px;
-	border:7px solid #402d2d;
+	border:10px solid #402d2d;
 }
 #pic{
 	float:right;
-	width:280px;
-	height:320px;
-	border:solid #b14e62;
+	width:270px;
+	height:270px;
+	border:10px solid #b14e62;
 	transform: rotate(0deg);
 }
 #calipic{
@@ -88,6 +89,9 @@ img{
 	margin-left:15%;
 	margin-top:3%;
 	text-align: left;
+	text-align: justify;
+ text-justify: auto;
+
 }
 #sec4{
 	font-size:14px;
@@ -96,11 +100,10 @@ img{
 	margin-left:5%;
 	margin-top:3%;
 	text-align: left;
+	text-align: justify;
+ text-justify: auto;
+}
 
-}
-#extraProjects{
-	clear:both;
-}
 #div3{
 	clear:both;
 	width:100%;
@@ -172,12 +175,31 @@ footer{
 	margin-bottom: 15%;
 }
 #teamProjects{
-	text-align: center;
 	clear: both;
+	float: left;
+	text-align: left;
+	margin-left:15%;
+	margin-top: 4%;
+	text-align: justify;
+ text-justify: auto;
+}
+#heading{
+padding-top: 5%;
+clear:both;
+	width:100%;
+	text-align:center;
+}
+#sec5{
+	margin-top: 2%;
+	clear:both;
+	float:left;
+	margin-left: 15%;
+	text-align: left;
 
 }
-#bulletPointMargin{
-	margin-left: 25%;
-	text-align:left;
-
+#sec6{
+	margin-top: 2%;
+	float:right;
+	margin-right: 15%;
+	text-align: left;
 }

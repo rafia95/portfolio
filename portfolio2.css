@@ -23,9 +23,13 @@ body{
 }
 #textDestination{
 	float:left;
-	font-size:25px;
+	font-size:40px;
 	margin-left:35%;
 	margin-top:15%;
+	font-family: 'Cabin', sans-serif;
+	text-shadow: 2px 2px;
+
+
 }
 
 #div1{
@@ -88,8 +92,7 @@ img{
 	margin-left:11%;
 	margin-top:3%;
 	text-align: left;
-	text-align: justify;
- text-justify: auto;
+
 
 }
 #sec4{
@@ -122,12 +125,12 @@ img{
 	margin:0px;
 }
 .navbar{
-	color: #b14e62;
+	color: #e6b3b3;
 	text-align: right;
 	font-size: 20px;
 	position: fixed;
 	z-index: 100;
-	background-color: #e6b3b3;
+	background-color: #b14e62;
 	min-height: 40px;
 	margin-right: 5px;
 }
@@ -139,6 +142,8 @@ font-weight:bold;
 }
 .navLinks{
 	margin-top: 25px;
+	color: #e6b3b3;
+
 }
 a{
 	color:#b14e62;
@@ -164,8 +169,8 @@ footer{
 	font-size:14px;
 }
 #bgColor{
-	background-color: #e6b3b3;
-	border:3px solid #e6b3b3;
+	background-color: #b14e62;
+	border:3px solid #b14e62;
 }
 #socials{
 	font-size: 40px;
@@ -177,8 +182,8 @@ footer{
 	text-align: left;
 	margin-left:18%;
 	margin-top: 4%;
-	text-align: justify;
- text-justify: auto;
+
+ margin-right: 20%;
 }
 #heading{
 padding-top: 5%;

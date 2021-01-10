@@ -21,8 +21,9 @@ function type(){
 			text=g.text.substr(g.currentChar,6);
 			g.currentChar+=4;
 		}
-		if(g.currentChar > '141')
-			text = text.fontcolor("#009933");
+			var clr = getColors();
+			text = text.fontcolor(clr);
+			
 		g.dest.innerHTML+=text;
 		g.currentChar++;
 		if(g.currentChar<g.text.length)
